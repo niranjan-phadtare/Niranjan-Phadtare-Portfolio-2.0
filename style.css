@@ -272,3 +272,4 @@ li::marker { color: var(--primary); }
         gap: 10px;
     }
 }
+.resume-btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; /* smaller horizontal size */ border-radius: 25px; background: #c8a97e; color: white; text-decoration: none; font-weight: 600; width: auto; /* prevents full-width bar */ min-width: fit-content; transition: 0.3s ease; } .resume-btn:hover { background: #b89467; transform: translateY(-2px); }
